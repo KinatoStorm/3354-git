@@ -8,7 +8,10 @@ public class Main {
             System.out.println(result);
         } catch (Exception e) {
             System.err.println("Please provide a few integers to add");
-        }
+        } catch (Exception c) {
+	    System.err.println("Wrong character type was used");
+	}
+
     }
 
     private static int addArguments(String[] args) 
