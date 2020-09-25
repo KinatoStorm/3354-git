@@ -1,0 +1,6 @@
+9a: There were 7 commits recorded at the time of step 8's completion
+9b: It was added January 24th, 2017 at 10:28 PM
+9c: git log will show the log of all the commits that have happened while git status shows the satus of the currenttree and the Head pointer
+9d: an untracked file in git is one that isnt being tracked from the last save of the repository while a unstaged file is a file that isnt in the stagin area for commit changes.
+9e: checkout takes content out from the repository and put it into the tree. reset can reset the repository back to its last saved commit.
+9f: While it is possible to do this this can cause conflicts and thus it is not reccommended to do.
