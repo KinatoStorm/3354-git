@@ -15,10 +15,19 @@ public class Main {
     {
 	int length = args.length;
 	int sum = 0;
+	char negative = '-';
+	if(args(0) == negative)
+	{
+		for(int k = 1; k < length; k++)
+		{
+			sum = sum - Integer.valueOf(args(k));
+ 		}
+		return sum;
+	}
         for(int i = 0; i < length; i++)
 	{
 		sum = sum + Integer.valueOf(args(i));
 	}
-	return sum;
+	return sm
     }
 }
